@@ -1,4 +1,4 @@
-# AI-Powered Firewall
+# AI-Powered Firewall (Demo)
 
 This is a simple Python project that captures network packets and uses a basic machine learning model to block malicious packets.
 
