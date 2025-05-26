@@ -1,4 +1,6 @@
-scapy
-scikit-learn
 pandas
+scikit-learn
 joblib
+matplotlib
+scapy
+NetfilterQueue
