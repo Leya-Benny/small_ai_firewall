@@ -4,3 +4,4 @@ joblib
 matplotlib
 scapy
 NetfilterQueue
+run in linux
