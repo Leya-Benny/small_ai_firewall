@@ -1,29 +1,15 @@
-# AI-Powered Firewall (Demo)
+# Small AI-Powered Firewall 
 
-This is a simple Python project that captures network packets and uses a basic machine learning model to block malicious packets.
+A simple machine learning-powered firewall that detects and blocks malicious network packets in real time using Python, Scapy, and NetfilterQueue.
 
-## How It Works
-- We train a machine learning model using example data.
-- The firewall captures packets and checks if they are malicious using the model.
-- If a packet is malicious, it is logged and blocked.
+---
 
-## How to Run
-1. Install dependencies:
-```
-pip install -r requirements.txt
-```
+## 🚀 Features
 
-2. Train the model:
-```
-python train_model.py
-```
+- ✅ Real-time packet sniffing and classification
+- 🧠 ML-powered detection using Random Forest
+- 🔒 Blocks malicious packets and logs them
+- 📄 Logging to `blocked_packets.log`
+- 📊 Training based on `src_port`, `dst_port`, and `packet_size`
 
-3. Run the firewall:
-```
-python firewall_ai.py
-```
-
-## Files
-- `train_model.py`: Trains the ML model.
-- `firewall_ai.py`: Captures packets and checks them with the model.
-- `dataset.csv`: Sample data used to train the model.
+---
